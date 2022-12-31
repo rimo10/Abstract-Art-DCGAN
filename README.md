@@ -1,1 +1,1 @@
-# Abstract-Art-DCGAN
+# Abstract Art Generation using DCGAN

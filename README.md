@@ -1,6 +1,5 @@
 # Abstract Art Generation using DCGAN
 ![generated-images-0200](https://user-images.githubusercontent.com/70977847/210127549-c6d23252-f000-4d8a-8f22-d5ff2a1718fa.png)
-Discriminator Network
 ### The discriminator
 It takes an image as input, and tries to classify it as "real" or "generated". In this sense, it's like any other neural network. We'll use a convolutional neural networks (CNN) which outputs a single number output for every image. We'll use stride of 2 to progressively reduce the size of the output feature map.
 ### The generator 

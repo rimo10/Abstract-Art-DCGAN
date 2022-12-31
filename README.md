@@ -17,4 +17,4 @@ Here are the steps involved in training the discriminator.
 * Finally we add the two losses and use the overall loss to perform gradient descent to adjust the weights of the discriminator.
 * It's important to note that we don't change the weights of the generator model while training the discriminator (opt_d only affects the discriminator.parameters())
 # Major drawbacks 
-Due to smalll size of training set (~ 3000 images) our mmodel couldn't be trained effectively
+Due to smalll size of training set (~ 3000 images) our model couldn't be trained effectively
